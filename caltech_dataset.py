@@ -25,6 +25,7 @@ class Caltech(VisionDataset):
                            # (split files are called 'train.txt' and 'test.txt')
 
         self.dataset={}
+        classes_dict={}
         self.n_instances=0
         n_class=0
 
