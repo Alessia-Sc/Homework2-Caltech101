@@ -66,7 +66,7 @@ class Caltech(VisionDataset):
         image, label = self.dataset[index]
         
         
-        ... # Provide a way to access image and label via index
+        # Provide a way to access image and label via index
                            # Image should be a PIL Image
                            # label can be int
 
